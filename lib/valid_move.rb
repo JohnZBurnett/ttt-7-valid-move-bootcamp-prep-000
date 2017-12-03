@@ -16,10 +16,10 @@ def valid_move?(board, input)
     elsif position_taken?(board,input) == false
       return true
 
-    else 
+    else
       return false
 
-    end 
+    end
 
   else
     return false
