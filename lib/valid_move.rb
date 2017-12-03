@@ -2,9 +2,9 @@
 
 def valid_move?(board, input)
 
-  if input.between?(0,8) == false
+  if input.between?(0,8) == false 
     return false
-
+    
   elsif input.between?(0,8) == true
 
     # we need to check if the position has been taken
@@ -17,10 +17,10 @@ def valid_move?(board, input)
     return true
 
   else
-    return false
-  end
+    return false 
+  end  
 
-
+end 
 
 
 end
@@ -41,3 +41,4 @@ def position_taken?(board, input)
   end
 
 end
+  
