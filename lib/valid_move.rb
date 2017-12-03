@@ -13,14 +13,18 @@ def valid_move?(board, input)
       return false
 
     # if position not taken, return move as valid
-  elsif position_taken?(board,input) == false
-    return true
+    elsif position_taken?(board,input) == false
+      return true
+
+    else 
+      return false
+
+    end 
 
   else
     return false
   end
 
-end
 
 
 end
